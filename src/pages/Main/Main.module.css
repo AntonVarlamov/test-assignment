@@ -1,0 +1,10 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hrLine {
+    border: none;
+    border-top: 1px solid #ebebeb;
+}

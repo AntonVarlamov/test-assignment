@@ -1,0 +1,21 @@
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.m {
+  padding: 12px 16px;
+}
+
+.outlined {
+  color: #5558FA;
+  background: #FFFFFF;
+  outline: 1.5px solid #5558FA;
+}
+
+.filled {
+  background: #5558FA;
+  color: #FFFFFF;
+}
+

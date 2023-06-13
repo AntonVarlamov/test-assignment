@@ -1,0 +1,54 @@
+.selectIcon {
+    position: absolute;
+    right: 16px;
+    bottom: 17px;
+    rotate: 0deg;
+}
+
+.select {
+    cursor: pointer;
+    position: relative;
+    max-width: 400px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    text-align: left;
+    padding: 0;
+}
+
+
+.active {
+    rotate: 90deg;
+}
+
+.points {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    position: absolute;
+    background: #FFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.point:first-child{
+    border-radius: 4px 4px 0 0;
+}
+
+.point:last-child{
+    border-radius: 0 0 4px 4px;
+}
+
+.point {
+    padding: 12px;
+    list-style-type: none;
+    position: relative;
+}
+
+.chosenPoint {
+    background: rgba(85, 88, 250, 0.5);
+}
+
+.point:hover {
+    background: #5558FA;
+}

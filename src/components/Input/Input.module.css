@@ -1,0 +1,28 @@
+.m {
+  padding: 12px;
+}
+
+.input {
+  border: 1px solid #d6d6d6;
+  width: 400px;
+  border-radius: 4px;
+}
+
+.input::placeholder{
+  color: #858585;
+}
+
+.main {
+  background: #f5f5f5;
+}
+
+.step {
+  background: #fff;
+}
+
+.flex {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 8px;
+}

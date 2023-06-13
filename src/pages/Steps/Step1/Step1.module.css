@@ -1,0 +1,14 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.nextButton {
+    margin-left: auto;
+}
+

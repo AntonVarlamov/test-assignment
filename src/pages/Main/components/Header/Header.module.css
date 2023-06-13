@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    gap: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 17px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.initials {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #D5E4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initialsText {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.namesText {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.link {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #5558FA;
+}
+
+.linkText {
+    font-size: 12px;
+    line-height: 16px;
+}

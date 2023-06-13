@@ -1,0 +1,37 @@
+.points {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5558FA;
+}
+
+.point {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curPoint, .donePoint {
+    background: #5558FA;
+}
+
+.nextPoint {
+    background: #A6A6A6;
+}
+
+.curPoint:after {
+    content: " ";
+    background: #FFF;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    clip-path: circle(10%);
+}
+
+
